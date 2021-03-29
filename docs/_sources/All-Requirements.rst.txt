@@ -1,10 +1,9 @@
 
-
 R2D
 ---
 
 .. csv-table:: Requirements - R2D
-  :header: "#", "Description", "Source", "Priority", "Version"
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: R2D.csv
 
@@ -14,7 +13,7 @@ PBE
 ---
 
 .. csv-table:: Requirements - PBE
-  :header: "#", "Description", "Source", "Priority", "Version"
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: generalPBE.csv
 
@@ -23,29 +22,51 @@ PBE
 WE-UQ Requirements
 ------------------
 
-.. csv-table:: Requirements - WE-UQ
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - WE
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: generalWE.csv
 
 .. include:: key.rst	     
 
 
+Hydro-UQ Requirements
+---------------------
+
+.. csv-table:: Requirements - H
+  :header: "#", "Description", "Source", "Priority", "Status"
+  :widths: 10, 60, 10, 10, 10	   
+  :file: generalHydro.csv
+
+.. include:: key.rst	     
+	     
+
 EE-UQ Requirements
 ------------------
 
-.. csv-table:: Requirements - WE-UQ
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - EE
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: generalEEUQ.csv
 
 .. include:: key.rst
-   
+
+quoFEM Requirements
+-------------------
+
+.. csv-table:: Requirements - QF
+  :header: "#", "Description", "Source", "Priority", "Status"
+  :widths: 10, 60, 10, 10, 10	   
+  :file: generalQUO-FEM.csv
+
+.. include:: key.rst	     
+
+
 Earthquake Loading Requirements
 -------------------------------
 
-.. csv-table:: EL Requirements - Earthquake Loading
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - EL
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: EarthquakeLoading.csv
 
@@ -54,8 +75,8 @@ Earthquake Loading Requirements
 Wind Loading Requirements
 -------------------------
 
-.. csv-table:: Requirements - Wind Loading
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - WL
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: WindLoading.csv
 
@@ -64,8 +85,8 @@ Wind Loading Requirements
 Surge/Tsunami Loading Requirements
 ----------------------------------
 
-.. csv-table:: Requirements - Wind Loading
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - HL
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: HydroLoading.csv
 
@@ -75,28 +96,29 @@ UQ Requirements
 ---------------
 
 .. csv-table:: Requirements - Uncertainty Quantification Methods and Variables
-  :header: "#", "Description", "Source", "Priority", "Version"
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
-  :file: CommonUQ.csv
+  :file: UQMethods.csv
 
 .. include:: key.rst
 
 
-Damage & Loss Requirements
---------------------------
+RV Requirements
+---------------
 
-.. csv-table:: Requirements - Damage & Loss
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - Random Variables
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
-  :file: DL.csv
+  :file: RV.csv
 
-.. include:: key.rst	 
+.. include:: key.rst
 	     
+
 Modeling Requirements
 ---------------------
 
-.. csv-table:: Requirements - Modeling
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - MOD
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: Modeling.csv
 
@@ -105,8 +127,8 @@ Modeling Requirements
 Analysis Requirements
 ---------------------
 
-.. csv-table:: Requirements - Analysis
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - ANA
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: Analysis.csv
 
@@ -116,19 +138,30 @@ Analysis Requirements
 Damage & Loss Requirements
 --------------------------
 
-.. csv-table:: Requirements - Damage & Loss
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - DL
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: DL.csv
 
 .. include:: key.rst	 
 
 
+Common Research Application Requirements
+----------------------------------------
+
+.. csv-table:: Requirements - CR
+  :header: "#", "Description", "Source", "Priority", "Status"
+  :widths: 10, 60, 10, 10, 10	   
+  :file: commonR.csv
+
+.. include:: key.rst	 
+	     
+
 BRAILS
 ------
 
-.. csv-table:: Requirements - BRAILS
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - BR
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: BRAILS.csv
 
@@ -138,22 +171,42 @@ BRAILS
 PELICUN
 -------
 
-.. csv-table:: Requirements - General
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - P
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10
   :file: requirements_pelicun_general.csv
 
 .. include:: key.rst
 
-DL Databases
-------------
+BE Database
+-----------
 
-.. csv-table:: Requirements - DL Databases & Files
-  :header: "#", "Description", "Source", "Priority", "Version"
+.. csv-table:: Requirements - BE
+  :header: "#", "Description", "Source", "Priority", "Status"
+  :widths: 10, 60, 10, 10, 10	   
+  :file: BE.csv
+
+.. include:: key.rst	     
+
+DL Database
+-----------
+
+.. csv-table:: Requirements - DLD
+  :header: "#", "Description", "Source", "Priority", "Status"
   :widths: 10, 60, 10, 10, 10	   
   :file: requirements_pelicun_db.csv
 
-.. include:: key.rst	     
+.. include:: key.rst
+
+Regional Testbeds
+-----------------
+
+.. csv-table:: Requirements - DLD
+  :header: "#", "Description", "Source", "Priority", "Status"
+  :widths: 10, 60, 10, 10, 10	   
+  :file: testbeds.csv
+
+.. include:: key.rst	     	     
 
 	     
 	     

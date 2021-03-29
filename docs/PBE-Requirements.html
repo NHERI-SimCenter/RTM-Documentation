@@ -93,7 +93,7 @@
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html">1. quoFEM Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="WE-UQ.html">2. Response of Building to Wind Event</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EE-UQ.html">3. Response of Building to Earthquake</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Loading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PBER.html">5. Performance Based Engineering</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Regional Scale</span></p>
@@ -112,18 +112,23 @@
 <li class="toctree-l1"><a class="reference internal" href="allRequirements.html">1. R2D</a></li>
 <li class="toctree-l1"><a class="reference internal" href="allRequirements.html#pbe">2. PBE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="allRequirements.html#we-uq-requirements">3. WE-UQ Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#ee-uq-requirements">4. EE-UQ Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#earthquake-loading-requirements">5. Earthquake Loading Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#wind-loading-requirements">6. Wind Loading Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#surge-tsunami-loading-requirements">7. Surge/Tsunami Loading Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#uq-requirements">8. UQ Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#damage-loss-requirements">9. Damage &amp; Loss Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#modeling-requirements">10. Modeling Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#analysis-requirements">11. Analysis Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#id1">12. Damage &amp; Loss Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#brails">13. BRAILS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#pelicun">14. PELICUN</a></li>
-<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#dl-databases">15. DL Databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#hydro-uq-requirements">4. Hydro-UQ Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#ee-uq-requirements">5. EE-UQ Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#quofem-requirements">6. quoFEM Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#earthquake-loading-requirements">7. Earthquake Loading Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#wind-loading-requirements">8. Wind Loading Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#surge-tsunami-loading-requirements">9. Surge/Tsunami Loading Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#uq-requirements">10. UQ Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#rv-requirements">11. RV Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#modeling-requirements">12. Modeling Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#analysis-requirements">13. Analysis Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#damage-loss-requirements">14. Damage &amp; Loss Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#common-research-application-requirements">15. Common Research Application Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#brails">16. BRAILS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#pelicun">17. PELICUN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#be-database">18. BE Database</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#dl-database">19. DL Database</a></li>
+<li class="toctree-l1"><a class="reference internal" href="allRequirements.html#regional-testbeds">20. Regional Testbeds</a></li>
 </ul>
 
             
@@ -211,40 +216,184 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>PBE1</p></td>
-<td><p><em>Ability to determine damage and loss calculations for a building subjected to a natural hazard including formal treatment of randomness and uncertainty uncertainty</em></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>PBE1.1</p></td>
-<td><p><em>Ability to determine  damage and loss for multiple different hazards</em></p></td>
-<td></td>
-<td></td>
+<tr class="row-even"><td><p>PBE</p></td>
+<td><p><em>Ability to link the open-source environment to the risk and loss assessment development process</em></p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PBE1.1.1</p></td>
+<tr class="row-odd"><td><p>PBE1</p></td>
+<td><p><strong>Ability to determine  damage and loss for multiple different hazards</strong></p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
+<td><p>InProgress</p></td>
+</tr>
+<tr class="row-even"><td><p>PBE1.1</p></td>
 <td><p>Damage and Loss for ground shaking due to Earthquake</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
-<tr class="row-odd"><td><p>PBE1.1.2</p></td>
+<tr class="row-odd"><td><p>PBE1.2</p></td>
 <td><p>Damage and Loss due to Wind Loading</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
-<tr class="row-even"><td><p>PBE1.1.3</p></td>
+<tr class="row-even"><td><p>PBE1.3</p></td>
 <td><p>Damage and Loss due to water damage due to Tsunami or Coastal Inundation</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>PBE1.2</p></td>
-<td><p>Ability of Practicing Engineers to use multiple coupled resources (applications, databases, viz tools) in engineering practice</p></td>
+<tr class="row-odd"><td><p>PBE2</p></td>
+<td><p><strong>Ability to Select from Different Hazard Options</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE2.1</p></td>
+<td><p>Ability to select from all EE-UQ Event Options listed in EE-UQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE2.2</p></td>
+<td><p>Ability to select from all WE-UQ Event Options listed in WE-UQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE2.3</p></td>
+<td><p>Ability to select from all HydroUQ Event Options listed in Hydro-UQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PBE3</p></td>
+<td><p><strong>Ability to use different Model Generation Tools</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE3.1</p></td>
+<td><p>Ability to Select All Building Model Generators in EE-UQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE3.2</p></td>
+<td><p>Ability to Select All Building Model Generators in WE-UQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE3.3</p></td>
+<td><p>Ability to Select All Building Model Generators in HydroUQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE4</p></td>
+<td><p><strong>Ability to use Various UQ Methods and Variable Options</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PBE4.1</p></td>
+<td><p>Ability to use all forward propagation methods available in EE-UQ, WE-UQ and HydroUQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-even"><td><p>PBE4.2</p></td>
+<td><p>Ability to use all random variable distributions in EE-UQ, WE-UQ and HydroUQ</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE5</p></td>
+<td><p>Ability to determine damage and loss utiling different methods</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-even"><td><p>PBE5.1</p></td>
+<td><p>Incorporate the differenet methods avail in pelicun for building damage and loss</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE6</p></td>
+<td><p><strong>Misc User Requests</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE6.1</p></td>
+<td><p>Ability to Process own Output Parameters</p></td>
+<td><p>UF</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PBE6.2</p></td>
+<td><p>Add to Standard Earthquake a variable indicating analysis failure</p></td>
+<td><p>UF</p></td>
+<td><p>D</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PBE6.3</p></td>
+<td><p>Allow users to provide their own set of EDPs for the analysis.</p></td>
+<td><p>UF</p></td>
+<td><p>D</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE6.4</p></td>
+<td><p>Simplify run local and run remote by removing workdir locations. Move to preferences</p></td>
+<td><p>UF</p></td>
+<td><p>D</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-even"><td><p>PBE6.5</p></td>
+<td><p>Add to EDP a variable indicating analysis failure</p></td>
+<td><p>UF</p></td>
+<td><p>D</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PBE7</p></td>
+<td><p><strong>General Software Requirements</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>EE7.1</p></td>
+<td><p>Application to Provide Common SimCenter Research Application Requirements listed in CR</p></td>
 <td><p>GC</p></td>
-<td><p>1.0</p></td>
+<td><p>M</p></td>
+<td><p>InProgresss</p></td>
+</tr>
+<tr class="row-odd"><td><p>PBE7.2</p></td>
+<td><p>Ability to use new viz tools for viewing large datasets generated by PBE</p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td></td>
@@ -253,163 +402,13 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>PBE2</p></td>
-<td><p>Ability to utilize resources beyond the desktop including HPC</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE3</p></td>
-<td><p>Tool should incorporate data from WWW</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE4</p></td>
-<td><p>Tool available for download from web</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE5</p></td>
-<td><p>Ability to use new viz tools for viewing large datasets generated by PBE</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE6</p></td>
-<td><p>Tool to allow user to load and save user inputs</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE7</p></td>
-<td><p>Simplify run local and run remote by removing workdir locations. Move to preferences</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>1.2</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE8</p></td>
-<td><p>Add to EDP a variable indicating analysis failure</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>PBE9</p></td>
-<td><p>Installer which installs application and all needed software</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>PBE10</p></td>
-<td><p>Ability to gain educational materials that will help and encourage PBE</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE11</p></td>
-<td><p>Documentation exists on tool usage</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.1</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE12</p></td>
-<td><p>Video Exists demonstrating usage</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.1</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE13</p></td>
-<td><p>Verification Examples Exist</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.1</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE14</p></td>
-<td><p>Validation Examples Exist, validated against tests or other software</p></td>
-<td><p>GC</p></td>
-<td><p>D</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>PBE15</p></td>
-<td><p>Ability to select from all EE-UQ Event Options listed in EE-UQ E2</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE16</p></td>
-<td><p>Ability to select from all WE-UQ Event Options listed in WE-UQ W2</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE17</p></td>
-<td><p>Ability to select from all HydroUQ Event Options</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE18</p></td>
-<td><p>Ability to Select All Building Model Generators in EE-UQ</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE19</p></td>
-<td><p>Ability to Select All Building Model Generators in WE-UQ</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>PBE20</p></td>
-<td><p>Ability to Select All Building Model Generators in HydroUQ</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>PBE21</p></td>
-<td><p>Ability to use all forward propagation methods available in EE-UQ, WE-UQ and HydroUQ</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-odd"><td><p>PBE22</p></td>
-<td><p>Ability to use all random variable distributions in EE-UQ, WE-UQ and HydroUQ</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>1.0</p></td>
-</tr>
-<tr class="row-even"><td><p>PBE23</p></td>
-<td><p><em>Specify Engineering Demand Parameters</em></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>PBE23.1</p></td>
-<td><p>Ability to Process own Output Parameters</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>PBE23.2</p></td>
-<td><p>Add to Standard Earthquake a variable indicating analysis failure “</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>PBE23.3</p></td>
-<td><p>Allow users to provide their own set of EDPs for the analysis.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>2.0</p></td>
-</tr>
 </tbody>
 </table>
 <div class="line-block">
 <div class="line">key:</div>
 <div class="line">Source: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line">Priority: M=Mandatory, D=Desirable, P=Possible Future</div>
-<div class="line">Version: Version number the basic requirement was first met</div>
+<div class="line">Status: Implements, InProgress and Blank (i.e. not started)</div>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -446,13 +445,13 @@
 <td><p>Ability to perform component-based (FEMA P58) loss assessment for an earthquake hazard.</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL1.2</p></td>
 <td><p>Ability to perform component-assembly-based (HAZUS MH) loss assessment for an earthquake hazard.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.1</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL1.3</p></td>
 <td><p>Ability to perform downtime estimation using the REDi methodology.</p></td>
@@ -500,79 +499,79 @@
 <td><p>Allow users to set the number of realizations</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.2</p></td>
 <td><p>Allow users to specify the added uncertainty to EDPs</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.3</p></td>
 <td><p>Allow users to decide which decision variables to calculate</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.4</p></td>
 <td><p>Allow users to set the number of inhabitants on each floor and customize their temporal distribution.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.5</p></td>
 <td><p>Allow users to specify the boundary conditions of repairability.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.6</p></td>
 <td><p>Allow users to control collapse through EDP limits.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.7</p></td>
 <td><p>Allow users to specify the replacement cost and time for the building.</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.8</p></td>
 <td><p>Allow users to specify EDP boundaries that correspond to reliable simulation results.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.9</p></td>
 <td><p>Allow users to specify collapse modes and characterize the corresponding likelihood of injuries.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.10</p></td>
 <td><p>Allow users to specify the collapse probability of the structure.</p></td>
 <td><p>UF</p></td>
 <td><p>M</p></td>
-<td><p>1.2</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.11</p></td>
 <td><p>Allow users to use empirical EDP data to estimate the collapse probability of the structure.</p></td>
 <td><p>UF</p></td>
 <td><p>M</p></td>
-<td><p>1.2</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.12</p></td>
 <td><p>Allow users to choose the type of distribution they want to estimate the EDPs with.</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>1.2</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL2.13</p></td>
 <td><p>Allow users to perform the EDP fitting only for non-collapsed cases.</p></td>
 <td><p>UF</p></td>
 <td><p>M</p></td>
-<td><p>1.2</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL2.14</p></td>
 <td><p>Allow users to couple response estimation with loss assessment.</p></td>
@@ -590,55 +589,55 @@
 <td><p>Make the component damage and loss data from FEMA P58 available.</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.2</p></td>
 <td><p>Ability to use custom components for loss assessment.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL3.3</p></td>
 <td><p>Allow users to set different component quantities for each floor in each direction.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.4</p></td>
 <td><p>Allow users to set the number of identical component groups and their quantities within each performance group.</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL3.5</p></td>
 <td><p>Use a generic JSON data format for building components that can be shared by component-based and component-assembly-based assessments.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.1</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.6</p></td>
 <td><p>Convert FEMA P58 and HAZUS component damage and loss data to the new JSON format and make it available with the tool.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.1</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL3.7</p></td>
 <td><p>Make component definition easier by providing a list of available components in the given framework (e.g. FEMA P58 or HAZUS) and not requesting inputs that are already available in the data files.</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>1.2</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.8</p></td>
 <td><p>Make the component damage and loss data from FEMA P58 2nd edition available.</p></td>
 <td><p>UF</p></td>
 <td><p>M</p></td>
-<td><p>2.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL3.9</p></td>
 <td><p>Improve component definition by providing complete control over every characteristic on every floor and in every direction</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>2.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.10</p></td>
 <td><p>Allow users to view fragility and consequence functions in the application</p></td>
@@ -662,7 +661,7 @@
 <td><p>Allow users to export and load component information using CSV files</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>2.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL3.14</p></td>
 <td><p>Provide a method to users that automatically populates the performance model for commonly used structures.</p></td>
@@ -680,19 +679,19 @@
 <td><p>Allow the user to specify basic dependencies (i.e. independence or perfect correlation) between logically similar parts of the stochastic model (i.e. within component quantities or one type of decision variable, but not between quantities and fragilities)</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL4.2</p></td>
 <td><p>Allow the user to specify basic dependencies between reconstruction cost and reconstruction time.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-even"><td><p>DL4.3</p></td>
 <td><p>Allow the user to specify basic dependencies between different levels of injuries.</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>1.0</p></td>
+<td><p>Implemented</p></td>
 </tr>
 <tr class="row-odd"><td><p>DL4.4</p></td>
 <td><p>Allow the user to specify intermediate levels of correlation (i.e. not limited to 0 or 1) and provide a convenient interface that makes sure the specified correlation structure is valid.</p></td>
@@ -712,7 +711,7 @@
 <div class="line">key:</div>
 <div class="line">Source: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line">Priority: M=Mandatory, D=Desirable, P=Possible Future</div>
-<div class="line">Version: Version number the basic requirement was first met</div>
+<div class="line">Status: Implements, InProgress and Blank (i.e. not started)</div>
 </div>
 </div>
 
