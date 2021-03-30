@@ -512,7 +512,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p>PBE</p></td>
-<td><p><em>Ability to link the open-source environment to the risk and loss assessment development process</em></p></td>
+<td><p><em>Integrate fully coupled multi-model computations from hazard source through structure response, to compute reliable estimates of financial loss, business interruption, and casualties</em></p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td></td>
@@ -2611,274 +2611,142 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>DL1</p></td>
-<td><p><strong>Different Assessment Methods</strong></p></td>
+<tr class="row-even"><td><p>DL</p></td>
+<td><p><em>Damage &amp; Loss (DL) Predictions</em></p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL1.1</p></td>
-<td><p>Ability to perform component-based (FEMA P58) loss assessment for an earthquake hazard.</p></td>
-<td><p>SP</p></td>
+<tr class="row-odd"><td><p>DL1</p></td>
+<td><p>Ability to use open-source version of Hazus</p></td>
+<td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 </tr>
-<tr class="row-even"><td><p>DL1.2</p></td>
-<td><p>Ability to perform component-assembly-based (HAZUS MH) loss assessment for an earthquake hazard.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
+<tr class="row-even"><td><p>DL2</p></td>
+<td><p>Ability to incorporate improved damage and fragility models for buildings and lifelines</p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
+<td><p>InProgress</p></td>
 </tr>
-<tr class="row-odd"><td><p>DL1.3</p></td>
-<td><p>Ability to perform downtime estimation using the REDi methodology.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
+<tr class="row-odd"><td><p>DL3</p></td>
+<td><p>Ability to incorporate improved indirect economic loss estimation models</p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DL1.4</p></td>
-<td><p>Ability to describe building performance with additional decision variables from HAZUS (e.g.business interruption and debris</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
+<tr class="row-even"><td><p>DL4</p></td>
+<td><p>Ability to include demand surge in determination of damage and loss estimation</p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL1.5</p></td>
+<tr class="row-odd"><td><p>DL5</p></td>
+<td><p>Ability to include lifeline disruptions</p></td>
+<td><p>GC</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DL6</p></td>
 <td><p>Ability to perform time-based assessment</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DL1.6</p></td>
-<td><p>Ability to perform damage and loss assessment for hurricane wind</p></td>
-<td><p>GC</p></td>
+<tr class="row-odd"><td><p>DL7</p></td>
+<td><p><em>Methods for DL Prediction for Buildings for Various Hazards</em></p></td>
+<td><p>SP</p></td>
 <td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL1.7</p></td>
-<td><p>Ability to perform damage and loss assessment for storm surge</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
+<tr class="row-even"><td><p>DL7.1</p></td>
+<td><p>Incorporate PACT application for earthquake hazard</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DL1.8</p></td>
-<td><p>Ability to perform response estimation without simulation using HAZUS capacity curves</p></td>
+<tr class="row-odd"><td><p>DL7.2</p></td>
+<td><p>Ability to perform downtime estimation using the REDi methodology for earthquakes.</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL2</p></td>
-<td><p><strong>Control</strong></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DL2.1</p></td>
-<td><p>Allow users to set the number of realizations</p></td>
+<tr class="row-even"><td><p>DL7.3</p></td>
+<td><p>Incorporate Various Methods from PELICUN</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>Implemented</p></td>
+<td><p>InProgress</p></td>
 </tr>
-<tr class="row-odd"><td><p>DL2.2</p></td>
-<td><p>Allow users to specify the added uncertainty to EDPs</p></td>
+<tr class="row-odd"><td><p>DL7.3.1</p></td>
+<td><p>Incorporate the scenario-based assessment from FEMA-P58, item P6.1.1</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 </tr>
-<tr class="row-even"><td><p>DL2.3</p></td>
-<td><p>Allow users to decide which decision variables to calculate</p></td>
+<tr class="row-even"><td><p>DL7.3.2</p></td>
+<td><p>Incorporate the time-based assessment from FEMA-P58, item P1.1.2</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>Implemented</p></td>
+<td></td>
 </tr>
-<tr class="row-odd"><td><p>DL2.4</p></td>
-<td><p>Allow users to set the number of inhabitants on each floor and customize their temporal distribution.</p></td>
+<tr class="row-odd"><td><p>DL7.3.3</p></td>
+<td><p>Incorporate high-resolution assessment of buildings under wind hazards, item P1.1.3</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
+<td><p>M</p></td>
+<td></td>
 </tr>
-<tr class="row-even"><td><p>DL2.5</p></td>
-<td><p>Allow users to specify the boundary conditions of repairability.</p></td>
+<tr class="row-even"><td><p>DL7.3.4</p></td>
+<td><p>Incorporate high-resolution assessment of buildings under water hazards, item P1.1.4</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
+<td><p>M</p></td>
+<td></td>
 </tr>
-<tr class="row-odd"><td><p>DL2.6</p></td>
-<td><p>Allow users to control collapse through EDP limits.</p></td>
+<tr class="row-odd"><td><p>DL7.3.5</p></td>
+<td><p>Incorporate high-resolution assessment of transportation networks, item P1.1.5</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
+<td><p>M</p></td>
+<td></td>
 </tr>
-<tr class="row-even"><td><p>DL2.7</p></td>
-<td><p>Allow users to specify the replacement cost and time for the building.</p></td>
+<tr class="row-even"><td><p>DL7.3.6</p></td>
+<td><p>Incorporate high-resolution assessment of buried pipelines, item P1.1.6</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>DL7.3.7</p></td>
+<td><p>Incorporate the assessment of buildings under earthquake hazard from HAZUS, P1.2.1</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 </tr>
-<tr class="row-odd"><td><p>DL2.8</p></td>
-<td><p>Allow users to specify EDP boundaries that correspond to reliable simulation results.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL2.9</p></td>
-<td><p>Allow users to specify collapse modes and characterize the corresponding likelihood of injuries.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL2.10</p></td>
-<td><p>Allow users to specify the collapse probability of the structure.</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL2.11</p></td>
-<td><p>Allow users to use empirical EDP data to estimate the collapse probability of the structure.</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL2.12</p></td>
-<td><p>Allow users to choose the type of distribution they want to estimate the EDPs with.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL2.13</p></td>
-<td><p>Allow users to perform the EDP fitting only for non-collapsed cases.</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL2.14</p></td>
-<td><p>Allow users to couple response estimation with loss assessment.</p></td>
-<td><p>UF</p></td>
-<td><p>M</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DL3</p></td>
-<td><p><strong>Component damage and loss information</strong></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>DL3.1</p></td>
-<td><p>Make the component damage and loss data from FEMA P58 available.</p></td>
+<tr class="row-even"><td><p>DL7.3.8</p></td>
+<td><p>Incorporate the assessment of buildings under hurricane wind hazard from HAZUS, item P1.2.2</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 </tr>
-<tr class="row-even"><td><p>DL3.2</p></td>
-<td><p>Ability to use custom components for loss assessment.</p></td>
+<tr class="row-odd"><td><p>DL7.3.9</p></td>
+<td><p>Incorporate the assessment of buildings under storm surge hazard from HAZUS, item P1.2.3</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL3.3</p></td>
-<td><p>Allow users to set different component quantities for each floor in each direction.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL3.4</p></td>
-<td><p>Allow users to set the number of identical component groups and their quantities within each performance group.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL3.5</p></td>
-<td><p>Use a generic JSON data format for building components that can be shared by component-based and component-assembly-based assessments.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL3.6</p></td>
-<td><p>Convert FEMA P58 and HAZUS component damage and loss data to the new JSON format and make it available with the tool.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL3.7</p></td>
-<td><p>Make component definition easier by providing a list of available components in the given framework (e.g. FEMA P58 or HAZUS) and not requesting inputs that are already available in the data files.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL3.8</p></td>
-<td><p>Make the component damage and loss data from FEMA P58 2nd edition available.</p></td>
-<td><p>UF</p></td>
 <td><p>M</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL3.9</p></td>
-<td><p>Improve component definition by providing complete control over every characteristic on every floor and in every direction</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL3.10</p></td>
-<td><p>Allow users to view fragility and consequence functions in the application</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL3.11</p></td>
-<td><p>Allow users to edit fragility and consequence functions in the application</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DL3.12</p></td>
-<td><p>Replace JSON files with a more efficient method to store the damage and loss data for the large number of available Fragility Groups</p></td>
+<tr class="row-even"><td><p>DL7.3.10</p></td>
+<td><p>Incorporate the assessment of buried pipelines under earthquake hazard from HAZUS, item P1.2.4</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DL3.13</p></td>
-<td><p>Allow users to export and load component information using CSV files</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL3.14</p></td>
-<td><p>Provide a method to users that automatically populates the performance model for commonly used structures.</p></td>
-<td><p>UF</p></td>
-<td><p>D</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>DL4</p></td>
-<td><p><strong>Stochastic loss model</strong></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DL4.1</p></td>
-<td><p>Allow the user to specify basic dependencies (i.e. independence or perfect correlation) between logically similar parts of the stochastic model (i.e. within component quantities or one type of decision variable, but not between quantities and fragilities)</p></td>
+<tr class="row-odd"><td><p>DL7.3.11</p></td>
+<td><p>Incorporate the assessment of transportation networks under earthquake hazard from HAZUS, item P1.2.5</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL4.2</p></td>
-<td><p>Allow the user to specify basic dependencies between reconstruction cost and reconstruction time.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-even"><td><p>DL4.3</p></td>
-<td><p>Allow the user to specify basic dependencies between different levels of injuries.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
-<td><p>Implemented</p></td>
-</tr>
-<tr class="row-odd"><td><p>DL4.4</p></td>
-<td><p>Allow the user to specify intermediate levels of correlation (i.e. not limited to 0 or 1) and provide a convenient interface that makes sure the specified correlation structure is valid.</p></td>
-<td><p>SP</p></td>
-<td><p>D</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DL4.5</p></td>
-<td><p>Allow the user to specify the correlation for EDPs.</p></td>
+<tr class="row-even"><td><p>DL7.3.12</p></td>
+<td><p>Incorporate the assessment of power networks under earthquake hazard from HAZUS, item P1.2.6</p></td>
 <td><p>SP</p></td>
-<td><p>D</p></td>
+<td><p>M</p></td>
 <td></td>
 </tr>
 </tbody>
