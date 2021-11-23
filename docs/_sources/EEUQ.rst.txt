@@ -1,7 +1,8 @@
 .. _lblRequirements:
 
+************
 Requirements
-============
+************
 
 The following contains the functional requirements for the EE-UQ application. These requirements are broken down into a number of groups, **general**, **earthquake loading**, **building description**, **analysis**, and **UQ**.
 
