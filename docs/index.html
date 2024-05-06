@@ -35,6 +35,7 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
@@ -97,7 +98,7 @@
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html">1. quoFEM Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html#uq-requirements">2. UQ Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EE-UQ.html">3. Response of Building to Earthquake</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Loading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PBER.html">5. Performance Based Engineering</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Regional Scale</span></p>
@@ -197,10 +198,10 @@
            <div itemprop="articleBody">
             
   <div class="section" id="requirements-traceability-matrix">
-<h1>Requirements Traceability Matrix<a class="headerlink" href="#requirements-traceability-matrix" title="Permalink to this headline">¶</a></h1>
+<h1>Requirements Traceability Matrix<a class="headerlink" href="#requirements-traceability-matrix" title="Permalink to this heading">¶</a></h1>
 <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>The SimCenter has relied on community input to drive application and educational activities. We track these inputs as requirements in our Requirements Traceability Matrix (RTM). This is a living document, which is updated at least yearly. In this document is listed the general requirements for each tool and for each tool there is also listed the requirements for each component that is used to build up the tool. The components are as shown in the figure below, for example EE-UQ has components of Cloud (CLD), Reliability (UQR), Sensitivity (UQS), Sampling (UQF), Modelling (MOD), Earthquake Loading (EL), and  Analysis (ANA).</p>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">¶</a></h2>
+<p>The SimCenter has relied on community input to drive application and educational activities. We track these inputs as requirements in our Requirements Traceability Matrix (RTM). This is a living document, which is updated at least yearly. In this document is listed the general requirements for each tool and for each tool, there is also listed the requirements for each component that is used to build up the tool. The components are as shown in the figure below, for example, EE-UQ has components of Cloud (CLD), Reliability (UQR), Sensitivity (UQS), Sampling (UQF), Modelling (MOD), Earthquake Loading (EL), and  Analysis (ANA).</p>
 <div class="align-center figure" id="id6">
 <span id="figrtm"></span><img alt="_images/RTM.png" src="_images/RTM.png" />
 <p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Application &amp; Component Abbreviations for RTM</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
@@ -209,13 +210,13 @@
 <blockquote>
 <div><blockquote>
 <div><ol class="arabic simple">
-<li><p>A unique identifier, that is a combination of an abbreviation of tool or component name, plus one or more numbers; the sequence of numbers indicating a hierarchy in the requirements.</p></li>
+<li><p>A unique identifier, that is a combination of an abbreviation of a tool or component name, plus one or more numbers; the sequence of numbers indicating a hierarchy in the requirements.</p></li>
 <li><p>A brief description of the requirement.</p></li>
-<li><p>A source for the requirement indicating were the requirement originated. That can be one of three:</p>
+<li><p>A source for the requirement indicating where the requirement originated. That can be one of three:</p>
 <ol class="arabic simple">
-<li><p>GC: Grand challenges in hazard engineering are the problems, barriers, and bottlenecks that hinder the ideal of a nation resilient from the effects of natural hazards. The vision documents referenced in the solicitation (<a class="reference internal" href="#nstc2006" id="id1"><span>[NSTC2006]</span></a>, <a class="reference internal" href="#nsb2007" id="id2"><span>[NSB2007]</span></a>, <a class="reference internal" href="#nehrp2008" id="id3"><span>[NEHRP2008]</span></a>, <a class="reference internal" href="#fenves2011" id="id4"><span>[Fenves2011]</span></a>, <a class="reference internal" href="#nist2014" id="id5"><span>[NIST2014]</span></a>]) outline the grand challenges for wind and earthquake hazards. These documents all present a list of research and educational advances needed that can contribute knowledge and innovation to overcome the grand challenges. The advances summarized in the vision documents were identified through specially formed committees and workshops comprising researchers and practicing engineers. They identified both the grand challenges faced and also identified what was needed to address these challenges. The software needs identified in these reports that are applicable to research in natural hazards as permitted under the NSF NHERI program were identified in these reports. Those tasks that the NHERI SimCenter identified as pertaining to aiding NHERI researchers perform their research and those which would aid practicing engineers utilize this research in their work are identified here.</p></li>
+<li><p>GC: Grand challenges in hazard engineering are the problems, barriers, and bottlenecks that hinder the ideal of a nation resilient from the effects of natural hazards. The vision documents referenced in the solicitation (<a class="reference internal" href="#nstc2006" id="id1"><span>[NSTC2006]</span></a>, <a class="reference internal" href="#nsb2007" id="id2"><span>[NSB2007]</span></a>, <a class="reference internal" href="#nehrp2008" id="id3"><span>[NEHRP2008]</span></a>, <a class="reference internal" href="#fenves2011" id="id4"><span>[Fenves2011]</span></a>, <a class="reference internal" href="#nist2014" id="id5"><span>[NIST2014]</span></a>]) outline the grand challenges for wind and earthquake hazards. These documents all present a list of research and educational advances needed that can contribute knowledge and innovation to overcome the grand challenges. The advances summarized in the vision documents were identified through specially formed committees and workshops comprising researchers and practicing engineers. They identified both the grand challenges faced and also identified what was needed to address these challenges. The software needs that were identified in these reports that apply to research in natural hazards as permitted under the NSF NHERI program were identified in these reports. Those tasks that the NHERI SimCenter identified as pertaining to aiding NHERI researchers perform their research and those that would aid practicing engineers utilize this research in their work are identified here.</p></li>
 <li><p>SP: From the senior personnel on the SimCenter project. The vision documents outline general needs without going into the specifics. From these general needs the senior personnel on the project identified specific requirements that would provide basic functionality to allow research.</p></li>
-<li><p>UF: SimCenter workshops, boot camps and direct user feedback. As the SimCenter develops and releases tools, feedback from researchers using these tools is obtained at the tool training workshops, programmer boot-camps, in one-on-one discussions, via direct email, and through online user feedback surveys. For the feedback related to what additional functionality to include, entries are added to the RTM. For other feedback, related to simple tasks related to operation of tool and UI, entries are placed in our Jira system.</p></li>
+<li><p>UF: SimCenter workshops, boot camps and direct user feedback. As the SimCenter develops and releases tools, feedback from researchers using these tools is obtained at the tool training workshops, programmer boot camps, in one-on-one discussions, via direct email, and through online user feedback surveys. For the feedback related to what additional functionality to include, entries are added to the RTM. For other feedback, related to simple tasks related to the operation of tool and UI, entries are placed in our Jira system.</p></li>
 </ol>
 </li>
 <li><p>A designation determined by the management group indicating the importance of the requirement, which again has 3 possible values:</p></li>
@@ -229,29 +230,29 @@
 </div></blockquote>
 </div></blockquote>
 <ol class="arabic simple">
-<li><p>A column indicating whether the requirement has been implemented and available to users.</p></li>
+<li><p>A column indicating whether the requirement has been implemented and is available to users.</p></li>
 <li><p>A column indicating which examples are provided that can be used to test the features.</p></li>
 </ol>
 </div></blockquote>
-<p>The software requirements are many. For ease of presentation they are broken into three groups: 1) Building Scale Applications, 2) Regional Scale Applications, and 3) Education and Outreach Activities.</p>
+<p>The software requirements are many. For ease of presentation, they are broken into three groups: 1) Building Scale Applications, 2) Regional Scale Applications, and 3) Education and Outreach Activities.</p>
 </div>
 <div class="section" id="building-scale-applications">
-<h2>Building Scale Applications<a class="headerlink" href="#building-scale-applications" title="Permalink to this headline">¶</a></h2>
-<p>Applications to allow researchers to improve on methods related to determining on the response assessment and performance based design of individual buildings subject to the impact of a natural hazard. For building scale simulations, the requirements are broken down by SimCenter application. There are a number of applications under development for each of the hazards. Many of the requirements related to UQ and nonlinear analysis are repeated amongst the different applications under the assumption that if they are beneficial to engineers dealing with one hazard, they will be beneficial to engineers dealing with other hazards.</p>
+<h2>Building Scale Applications<a class="headerlink" href="#building-scale-applications" title="Permalink to this heading">¶</a></h2>
+<p>Applications to allow researchers to improve on methods related to determining the response assessment and performance-based design of individual buildings subject to the impact of a natural hazard. For building scale simulations, the requirements are broken down by the SimCenter application. There are a number of applications under development for each of the hazards. Many of the requirements related to UQ and nonlinear analysis are repeated amongst the different applications under the assumption that if they are beneficial to engineers dealing with one hazard, they will be beneficial to engineers dealing with other hazards.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Building Scale</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html">1. quoFEM Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html#uq-requirements">2. UQ Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EE-UQ.html">3. Response of Building to Earthquake</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Loading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PBER.html">5. Performance Based Engineering</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="regional-scale-applications">
-<h2>Regional Scale Applications<a class="headerlink" href="#regional-scale-applications" title="Permalink to this headline">¶</a></h2>
-<p>For regional scale, the requirements are broken down into four classes. AI related requirements in <strong>BRAILS</strong>, damage and loss prediction in <strong>pelicun</strong>, backend workflow requirements in <strong>rWhale</strong>, and front end user interface requirements in <strong>R2D</strong>.</p>
+<h2>Regional Scale Applications<a class="headerlink" href="#regional-scale-applications" title="Permalink to this heading">¶</a></h2>
+<p>For the regional scale, the requirements are broken down into four classes. AI-related requirements in <strong>BRAILS</strong>, damage and loss prediction in <strong>pelicun</strong>, backend workflow requirements in <strong>rWhale</strong>, and front-end user interface requirements in <strong>R2D</strong>.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Regional Scale</span></p>
 <ul>
@@ -263,7 +264,7 @@
 </div>
 </div>
 <div class="section" id="all-requirements">
-<h2>All Requirements<a class="headerlink" href="#all-requirements" title="Permalink to this headline">¶</a></h2>
+<h2>All Requirements<a class="headerlink" href="#all-requirements" title="Permalink to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">All Rquirements</span></p>
 <ul>
@@ -290,11 +291,11 @@
 </ul>
 </div>
 <div class="section" id="contact">
-<h3>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h3>
+<h3>Contact<a class="headerlink" href="#contact" title="Permalink to this heading">¶</a></h3>
 <p>Frank McKenna, NHERI SimCenter, UC Berkeley, <a class="reference external" href="mailto:fmckenna&#37;&#52;&#48;berkeley&#46;edu">fmckenna<span>&#64;</span>berkeley<span>&#46;</span>edu</a></p>
 </div>
 <div class="section" id="references">
-<h3>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h3>
+<h3>References<a class="headerlink" href="#references" title="Permalink to this heading">¶</a></h3>
 <dl class="citation">
 <dt class="label" id="fenves2011"><span class="brackets"><a class="fn-backref" href="#id4">Fenves2011</a></span></dt>
 <dd><p>Fenves, G. L., Poland, C. D., Crewe, A. J., Eguchi, R., T., Hajjar, J. F., Lynch, J. P., and Nakashima, M. (2011). Grand Challenges in Earthquake Engineering, National Research Council, National Academies Press, Washington, D.C., 90 pp.</p>

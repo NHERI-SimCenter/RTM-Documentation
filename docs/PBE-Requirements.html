@@ -35,6 +35,7 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
@@ -96,7 +97,7 @@
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html">1. quoFEM Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html#uq-requirements">2. UQ Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EE-UQ.html">3. Response of Building to Earthquake</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Loading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PBER.html">5. Performance Based Engineering</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Regional Scale</span></p>
@@ -196,7 +197,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="general-requirements">
-<span id="lblrequirements"></span><h1>General Requirements<a class="headerlink" href="#general-requirements" title="Permalink to this headline">¶</a></h1>
+<span id="lblrequirements"></span><h1>General Requirements<a class="headerlink" href="#general-requirements" title="Permalink to this heading">¶</a></h1>
 <table class="colwidths-given docutils align-default" id="id1">
 <caption><span class="caption-text">PBE Requirements - General</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
@@ -221,11 +222,11 @@
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
 </tr>
-<tr class="row-odd"><td><p>PBE.1</p></td>
-<td><p>Ability to determine  damage and loss for multiple different hazards</p></td>
-<td><p>GC</p></td>
-<td><p>M</p></td>
-<td><p>InProgress</p></td>
+<tr class="row-odd"><td><p><strong>PBE.1</strong></p></td>
+<td><p><strong>Ability to determine  damage and loss for multiple different hazards</strong></p></td>
+<td><p><strong>GC</strong></p></td>
+<td><p><strong>M</strong></p></td>
+<td><p><strong>InProgress</strong></p></td>
 </tr>
 <tr class="row-even"><td><p>PBE.1.1</p></td>
 <td><p>Damage and Loss due to ground shaking from Earthquake</p></td>
@@ -243,7 +244,7 @@
 <td><p>Damage and Loss due to water damage from Tsunami or Coastal Inundation</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-odd"><td></td>
 <td></td>
@@ -251,8 +252,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PBE.2</p></td>
-<td><p>Ability to Select from Different Hazard Options</p></td>
+<tr class="row-even"><td><p><strong>PBE.2</strong></p></td>
+<td><p><strong>Ability to Select from Different Hazard Options</strong></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -267,13 +268,13 @@
 <td><p>Ability to select from all WE-UQ Event Options listed in WE-UQ</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-odd"><td><p>PBE.2.3</p></td>
 <td><p>Ability to select from all HydroUQ Event Options listed in Hydro-UQ</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-even"><td></td>
 <td></td>
@@ -281,8 +282,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>PBE.3</p></td>
-<td><p>Ability to use different Model Generation Tools</p></td>
+<tr class="row-odd"><td><p><strong>PBE.3</strong></p></td>
+<td><p><strong>Ability to use different Model Generation Tools</strong></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -297,13 +298,13 @@
 <td><p>Ability to Select All Building Model Generators in WE-UQ</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-even"><td><p>PBE.3.3</p></td>
 <td><p>Ability to Select All Building Model Generators in HydroUQ</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-odd"><td></td>
 <td></td>
@@ -311,8 +312,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PBE.4</p></td>
-<td><p>Ability to use Various UQ Methods and Variable Options</p></td>
+<tr class="row-even"><td><p><strong>PBE.4</strong></p></td>
+<td><p><strong>Ability to use Various UQ Methods and Variable Options</strong></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -333,7 +334,7 @@
 <td><p>Ability to use train surrogate models using the methods from quoFEM</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-even"><td></td>
 <td></td>
@@ -341,11 +342,11 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>PBE.5</p></td>
-<td><p>Ability to determine damage and loss utilizing different methods</p></td>
-<td><p>SP</p></td>
-<td><p>M</p></td>
-<td><p>Implemented</p></td>
+<tr class="row-odd"><td><p><strong>PBE.5</strong></p></td>
+<td><p><strong>Ability to determine damage and loss utilizing different methods</strong></p></td>
+<td><p><strong>SP</strong></p></td>
+<td><p><strong>M</strong></p></td>
+<td><p><strong>Implemented</strong></p></td>
 </tr>
 <tr class="row-even"><td><p>PBE.5.1</p></td>
 <td><p>Interface with pelicun to make available its suite of methods for damage and loss assessment for buildings</p></td>
@@ -359,8 +360,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PBE.6</p></td>
-<td><p>Misc User Requests</p></td>
+<tr class="row-even"><td><p><strong>PBE.6</strong></p></td>
+<td><p><strong>Miscelleneous User Requests</strong></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -407,8 +408,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PBE.7</p></td>
-<td><p>General Software Requirements</p></td>
+<tr class="row-even"><td><p><strong>PBE.7</strong></p></td>
+<td><p><strong>General Software Requirements</strong></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -417,7 +418,7 @@
 <td><p>Application to Provide Common SimCenter Research Application Requirements listed in CR</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
-<td><p>InProgresss</p></td>
+<td><p>InProgress</p></td>
 </tr>
 <tr class="row-even"><td><p>PBE.7.2</p></td>
 <td><p>Ability to use new vizualization tools for viewing large datasets generated by PBE</p></td>
@@ -425,31 +426,16 @@
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 </tr>
-<tr class="row-odd"><td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">key:</div>
-<div class="line">Source: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
-<div class="line">Priority: M=Mandatory, D=Desirable, P=Possible Future</div>
-<div class="line">Status: Implements, InProgress and Blank (i.e. not started)</div>
+<div class="line"><strong>Key:</strong></div>
+<div class="line-block">
+<div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
+<div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
+<div class="line"><strong>Status</strong>: Implemented, InProgress and Blank (i.e. not started)</div>
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -457,7 +443,7 @@
 </div>
 </div>
 <div class="section" id="damage-loss-requirements">
-<h1>Damage &amp; Loss Requirements<a class="headerlink" href="#damage-loss-requirements" title="Permalink to this headline">¶</a></h1>
+<h1>Damage &amp; Loss Requirements<a class="headerlink" href="#damage-loss-requirements" title="Permalink to this heading">¶</a></h1>
 <table class="colwidths-given docutils align-default" id="id2">
 <caption><span class="caption-text">PBE Requirements - Damage &amp; Loss</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <colgroup>
@@ -599,10 +585,13 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">key:</div>
-<div class="line">Source: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
-<div class="line">Priority: M=Mandatory, D=Desirable, P=Possible Future</div>
-<div class="line">Status: Implements, InProgress and Blank (i.e. not started)</div>
+<div class="line"><strong>Key:</strong></div>
+<div class="line-block">
+<div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
+<div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
+<div class="line"><strong>Status</strong>: Implemented, InProgress and Blank (i.e. not started)</div>
+<div class="line"><br /></div>
+</div>
 </div>
 </div>
 

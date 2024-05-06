@@ -35,6 +35,7 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
@@ -98,7 +99,7 @@
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html">1. quoFEM Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="QUOFEM.html#uq-requirements">2. UQ Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EE-UQ.html">3. Response of Building to Earthquake</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Response of Building to Hydrodynamic Loading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HydroUQ.html">4. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PBER.html">5. Performance Based Engineering</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Regional Scale</span></p>
@@ -198,16 +199,17 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><span class="section-number">2. </span>BRAILS Requirements<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">2. </span>BRAILS Requirements<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
 <p><strong>BRAILS</strong> is a framework related to creating building inventories for regional scale simulation. It mainly uses artifical intelligence to generate the building inventories. The requirements are related to sections 1.3.3 and 1.3.4 of the SimCenter WBS.</p>
 <table class="colwidths-given docutils align-default" id="id18">
 <caption><span class="caption-number">Table 2.3 </span><span class="caption-text">Requirements - BRAILS</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 60%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 55%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
 </colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>#</p></th>
@@ -215,6 +217,7 @@
 <th class="head"><p>Source</p></th>
 <th class="head"><p>Priority</p></th>
 <th class="head"><p>Status</p></th>
+<th class="head"><p>WBS</p></th>
 </tr>
 </thead>
 <tbody>
@@ -223,23 +226,27 @@
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
+<td><p>1.1.3.2</p></td>
 </tr>
 <tr class="row-odd"><td><p>BR.2</p></td>
 <td><p>Promote living community risk models utilizing local inventory data from various sources</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.3</p></td>
 <td><p>Developing and sharing standardized definitions, measurement protocols and strategies for data collection</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td></td>
+<td><p>1.1.3.1</p></td>
 </tr>
 <tr class="row-odd"><td><p>BR.4</p></td>
 <td><p>Developing tools that utilize GIS information and online images, e.g. google maps, for data collection for gathering Building Information</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
+<td><p>InProgress</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BR.4.1</p></td>
@@ -247,21 +254,25 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/workflow.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.4.2</p></td>
 <td><p>Create workflow application for building inventory from framework modules</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/workflow.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.4.2</p></td>
 <td><p>Create workflow application for transportation network from framework modules</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>InProgress</p></td>
+<td><p>Implemented</p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5</p></td>
 <td><p>Developing Modules for Asset Inventory Workflows identified in BR4</p></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -271,107 +282,125 @@
 <td><p>UF</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/softstoryClassifier.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.2</p></td>
 <td><p>Predicting First Floor Height</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.3</p></td>
 <td><p>Predicting Roof Height</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.4</p></td>
 <td><p>Predicting Eave Height</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.5</p></td>
 <td><p>Predicting Eave Length</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.6</p></td>
 <td><p>Predicting Roof Shape</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/roofClassifier.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.7</p></td>
 <td><p>Predicting Roof Pitch</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.8</p></td>
 <td><p>Predicting Roof Cover Material</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/RoofCoverClassifier">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.9</p></td>
 <td><p>Predicting Window Area</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/BRAILS/tree/master/brails/modules/FacadeParser">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.10</p></td>
 <td><p>Predicting Number of Floors</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/nFloorDetector.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.11</p></td>
 <td><p>Classifying Elevated Building</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/foundationElevationClassifier.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.12</p></td>
 <td><p>Predicting Occupancy Type</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/occupancyClassifier.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.13</p></td>
 <td><p>Predicting Year Built</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/yearClassifier.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.14</p></td>
 <td><p>Predicting Attached Garage</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/garageDetector.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.15</p></td>
 <td><p>Predicting Presence of Masonry Chimney</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/BRAILS-Documentation/common/user_manual/modules/chimneyDetector.html">Implemented</a></p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.5.16</p></td>
 <td><p>Predicting Building Material</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
+<td><p>InProgress</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BR.5.17</p></td>
 <td><p>Predicting Structural Type</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
+<td><p>Implemented</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.6</p></td>
 <td><p>DesignSafe integration to provide access to GPU</p></td>
 <td></td>
 <td></td>
+<td><p>Implemented</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BR.6.1</p></td>
@@ -379,11 +408,13 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.6.2</p></td>
 <td><p>For classification done at DesignSafe, store images and meta data for BE Database</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BR.6.3</p></td>
@@ -391,9 +422,11 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.7</p></td>
 <td><p>Work to improve existing performance models through Continous Learning</p></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -403,11 +436,13 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>BR.7.2</p></td>
 <td><p>Continous Learning for Roof Material</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BR.8</p></td>
@@ -415,14 +450,18 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">key:</div>
-<div class="line">Source: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
-<div class="line">Priority: M=Mandatory, D=Desirable, P=Possible Future</div>
-<div class="line">Status: Implements, InProgress and Blank (i.e. not started)</div>
+<div class="line"><strong>Key:</strong></div>
+<div class="line-block">
+<div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
+<div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
+<div class="line"><strong>Status</strong>: Implemented, InProgress and Blank (i.e. not started)</div>
+<div class="line"><br /></div>
+</div>
 </div>
 </div>
 

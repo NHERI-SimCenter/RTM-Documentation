@@ -1,12 +1,12 @@
 
-.. _PELICUN_Requirements:
+.. _requirements:
 
 .. raw:: latex
 
     \clearpage
 
-Pelicun Requirements
-====================
+Requirements
+============
 
 .. only:: requirements
 
