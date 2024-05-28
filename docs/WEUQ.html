@@ -187,8 +187,8 @@
 <p>The purpose of presenting these requirements is to inform the community about the present capabilities of the WE-UQ application and the features that could be added. The original set of requirements has come from a set of grand challenge reports, <strong>GC</strong>. These original requirements have been broken into a smaller set of deliverable features by the senior faculty associated with the project, <strong>SP</strong>. Additional requirements have come from users through the User Forum, <strong>UF</strong>. See section <span class="xref std std-ref">features</span> if you have additional features you would like to see.</p>
 <div class="section" id="general-requirements">
 <h2>General Requirements<a class="headerlink" href="#general-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id26">
-<caption><span class="caption-text">Requirements - General</span><a class="headerlink" href="#id26" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id44">
+<caption><span class="caption-text">Requirements - General</span><a class="headerlink" href="#id44" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 9%" />
 <col style="width: 55%" />
@@ -453,14 +453,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="loading-requirements">
 <h2>Loading Requirements<a class="headerlink" href="#loading-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id27">
-<caption><span class="caption-text">Requirements - Wind Loading</span><a class="headerlink" href="#id27" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id45">
+<caption><span class="caption-text">Requirements - Wind Loading</span><a class="headerlink" href="#id45" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 9%" />
 <col style="width: 55%" />
@@ -484,35 +484,35 @@
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td></td>
-<td><p><strong>N/A</strong></p></td>
+<td><p><strong>_</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>WL.1.1</strong></p></td>
 <td><p><strong>Regional Hurricane Wind Options</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
-<td><p><strong>N/A</strong></p></td>
+<td><p><strong>_</strong></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.1.1.1</p></td>
 <td><p>Utilize GIS and online to account for wind speed given local terrain, topography and nearby buildings</p></td>
 <td><p>GC</p></td>
 <td><p>D</p></td>
 <td><p>_</p></td>
-<td><p>N/A</p></td>
+<td><p>_</p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.1.1.2</p></td>
-<td><p>MultiScale Wind Models</p></td>
+<td><p>Multi-scale models for wind and water flows, i.e. lower fidelity regional models with more refined models to capture local flow</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
-<td><p>_</p></td>
+<td><p>InProgress</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="row-even"><td><p>WL.1.1.3</p></td>
 <td><p>Multi-scale models for wind and water flows, i.e. lower fidelity regional models with more refined models to capture local flow</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
-<td><p>_</p></td>
+<td><p>InProgress</p></td>
+<td><p>1.1.3.3.2</p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.1.2</p></td>
 <td><p>Modeling and simulation for determination of wind loads due to non-synoptic winds, including tornadoes</p></td>
@@ -540,7 +540,7 @@
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
-<td><p><strong>_</strong></p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0007/README.html">weuq-0007</a></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>WL.2.1.1</strong></p></td>
 <td><p><strong>Accommodate Range of Low Rise building shapes</strong></p></td>
@@ -554,28 +554,28 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0007/README.html">weuq-0007</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.2.1.1.2</p></td>
 <td><p>Gable Shaped Roof - TPU dataset</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0007/README.html">weuq-0007</a></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.2.1.1.3</p></td>
 <td><p>Hipped Shaped Roof - TPU dataset</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0007/README.html">weuq-0007</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.2.1.2</p></td>
 <td><p>Accommodate Range of High Rise building</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/wind/windTunnelExp.html">UM</a></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.2.1.3</p></td>
 <td><p>Non Isolated Low Rise Buildings - TPU dataset</p></td>
@@ -589,21 +589,21 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/wind/DEDMHrp.html">UM</a></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.2.3</p></td>
 <td><p>Accommodate Data from Wind Tunnel Experiment</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/wind/lowRiseTPU.html">UM</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.2.4</p></td>
 <td><p>Simple CFD model generation and turbulence modeling</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0013/README.html">weuq-0013</a></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>WL.2.5</strong></p></td>
 <td><p><strong>Computational Fluid Dynamics tool for utilizing open source CFD software for practitioners</strong></p></td>
@@ -617,7 +617,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0013/README.html">weuq-0013</a></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.2.5.2</p></td>
 <td><p>Coupled OpenFOAM CFD model with linear FEM code for building response</p></td>
@@ -645,7 +645,7 @@
 <td><p>SP</p></td>
 <td><p>D</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0001/README.html">weuq-0001</a></p></td>
 </tr>
 <tr class="row-even"><td><p>WL.2.8</p></td>
 <td><p>Hazard modification by terrain, topography, and nearby buildings</p></td>
@@ -697,14 +697,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="modeling-requirements">
 <h2>Modeling Requirements<a class="headerlink" href="#modeling-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id28">
-<caption><span class="caption-text">Requirements - Modeling</span><a class="headerlink" href="#id28" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id46">
+<caption><span class="caption-text">Requirements - Modeling</span><a class="headerlink" href="#id46" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -738,24 +738,24 @@
 <td></td>
 </tr>
 <tr class="row-even"><td><p>BM.1</p></td>
-<td><p>Ability to quickly create a simple nonlinear building model for simple methods of seismic evaluation</p></td>
+<td><p>Ability to quickly create a simple nonlinear building model</p></td>
 <td><p>GC</p></td>
 <td><p>D</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0012/README.html">weuq-0012</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>BM.2</p></td>
 <td><p>Ability to use existing OpenSees model scripts</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0001/README.html">weuq-0001</a></p></td>
 </tr>
 <tr class="row-even"><td><p>BM.3</p></td>
 <td><p>Ability to define a building and use Expert System to generate FE mesh</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
 <tr class="row-odd"><td><p>BM.4</p></td>
@@ -790,8 +790,22 @@
 <td><p>Ability to use user-supplied Python script to generate mesh</p></td>
 <td><p>UF</p></td>
 <td><p>M</p></td>
+<td><p>InProgress</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenterCommon/blob/master/Workflow/SIM/CustomPy.cpp">SC</a></p></td>
+</tr>
+<tr class="row-even"><td><p>BM.9</p></td>
+<td><p>Ability to use multiple models of similar fidelity</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>BM.10</p></td>
+<td><p>Ability to use multiple models of different fidelity</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -801,14 +815,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="analysis-requirements">
 <h2>Analysis Requirements<a class="headerlink" href="#analysis-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id29">
-<caption><span class="caption-text">Requirements - Analysis</span><a class="headerlink" href="#id29" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id47">
+<caption><span class="caption-text">Requirements - Analysis</span><a class="headerlink" href="#id47" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -888,7 +902,7 @@
 <td><p>UF</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0001/README.html">weuq-0001</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>ANA.4</p></td>
 <td><p>Ability to run for more than 60 hours at DesignSafe</p></td>
@@ -902,7 +916,14 @@
 <td><p>UF</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/examples/desktop/weuq-0001/README.html">weuq-0001</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ANA.6</p></td>
+<td><p>Ability to use multiple analysis options</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -912,14 +933,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="uq-requirements">
 <h2>UQ Requirements<a class="headerlink" href="#uq-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id30">
-<caption><span class="caption-text">Requirements - Uncertainty Quantification Methods and Variables</span><a class="headerlink" href="#id30" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id48">
+<caption><span class="caption-text">Requirements - Uncertainty Quantification Methods and Variables</span><a class="headerlink" href="#id48" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1226,14 +1247,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="rv-requirements">
 <h2>RV Requirements<a class="headerlink" href="#rv-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id31">
-<caption><span class="caption-text">Requirements - Random Variables</span><a class="headerlink" href="#id31" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id49">
+<caption><span class="caption-text">Requirements - Random Variables</span><a class="headerlink" href="#id49" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1271,56 +1292,56 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>RV.1.3</p></td>
 <td><p>Uniform</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-even"><td><p>RV.1.4</p></td>
 <td><p>Beta</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>RV.1.5</p></td>
 <td><p>Weibull</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-even"><td><p>RV.1.6</p></td>
 <td><p>Gumbel</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>RV.1.7</p></td>
 <td><p>Exponential</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-even"><td><p>RV.1.8</p></td>
 <td><p>Discrete</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>RV.1.9</p></td>
 <td><p>Gamma</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-even"><td><p>RV.1.10</p></td>
 <td><p>Chi-squared</p></td>
@@ -1348,7 +1369,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/RV.html">UM</a></p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/tree/master/Examples/weuq-0000">weuq-0000</a></p></td>
 </tr>
 <tr class="row-even"><td><p>RV.4</p></td>
 <td><p>Random Fields</p></td>
@@ -1372,14 +1393,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="common-research-application-requirements">
 <h2>Common Research Application Requirements<a class="headerlink" href="#common-research-application-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id32">
-<caption><span class="caption-text">Requirements - CR</span><a class="headerlink" href="#id32" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id50">
+<caption><span class="caption-text">Requirements - CR</span><a class="headerlink" href="#id50" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1431,7 +1452,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ">WE-UQ</a></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>CR.3</strong></p></td>
 <td><p><strong>Ability to utilize resources beyond the desktop including HPC</strong></p></td>
@@ -1445,7 +1466,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ">WE-UQ</a></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>CR.4</strong></p></td>
 <td><p><strong>Efficient use of multiple coupled and linked models requiring sharing and inter-operability of databases, computing environments, networks, visualization tools, and analysis systems</strong></p></td>
@@ -1466,21 +1487,21 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/WE-UQ-Documentation/common/user_manual/usage/desktop/wind/lowRiseTPU.html">UM</a></p></td>
 </tr>
 <tr class="row-even"><td><p>CR.4.3</p></td>
 <td><p>Identify and include external viz tools</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/WE-UQ/blob/master/EVENTS/IsolatedBuildingCFD/SimCenterVTKRenderingWidget.cpp">SC</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>CR.4.4</p></td>
 <td><p>Identify and include external computing env</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Inprogress</p></td>
-<td><p>_</p></td>
+<td><p>1.1.2.5.5</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>CR.5</strong></p></td>
 <td><p><strong>Tool available for download from web</strong></p></td>
@@ -1536,7 +1557,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/developer_manual/verification/desktop/verification.html">WE-UQ</a></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>CR.8</strong></p></td>
 <td><p><strong>Validation of proposed analytical models against existing empirical datasets</strong></p></td>
@@ -1550,7 +1571,7 @@
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>_</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/developer_manual/verification/desktop/verification.html">WE-UQ</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>CR.9</p></td>
 <td><p>Tool to allow users to load and save user inputs</p></td>
@@ -1560,10 +1581,10 @@
 <td><p><strong>core</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p>CR.10</p></td>
-<td><p>Installer which installs application and all needed software</p></td>
+<td><p>Installer which installs the application and all needed software</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>Implemented</p></td>
 <td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/WE-UQ-Documentation/common/user_manual/installation/desktop/installation.html">WE-UQ</a></p></td>
 </tr>
 </tbody>
@@ -1574,7 +1595,7 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>

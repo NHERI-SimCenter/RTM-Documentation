@@ -186,8 +186,8 @@
 <p><strong>R2D</strong> is the UI for a regional simulation. It uses <strong>rWhale</strong> to run the workflow. The requirements from R2D come from many components.</p>
 <div class="section" id="general-requirements">
 <h2>General Requirements<a class="headerlink" href="#general-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id16">
-<caption><span class="caption-text">Requirements - R2D</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id19">
+<caption><span class="caption-text">Requirements - R2D</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -641,14 +641,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="earthquake-loading-requirements">
 <h2>Earthquake Loading Requirements<a class="headerlink" href="#earthquake-loading-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id17">
-<caption><span class="caption-text">Requirements - EL</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id20">
+<caption><span class="caption-text">Requirements - EL</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -706,7 +706,7 @@
 <td><p>Interface between asset and regional simulations using DRM method</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td></td>
+<td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
 <tr class="row-even"><td><p>EL.1.2</p></td>
@@ -731,11 +731,11 @@
 <td><p><strong>_</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>EL.2.1</strong></p></td>
-<td><p><strong>Coupling of multi-scale nonlinear models from the point of rupture through rock and soil into structure</strong></p></td>
-<td><p><strong>_</strong></p></td>
-<td><p><strong>_</strong></p></td>
-<td><p><strong>_</strong></p></td>
-<td><p><strong>_</strong></p></td>
+<td><p>Interact with PEER NGA</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+<td><p>_</p></td>
 </tr>
 <tr class="row-even"><td><p>EL.2.1.1</p></td>
 <td><p>Select using default selection options</p></td>
@@ -783,18 +783,18 @@
 <td><p>Ability to use OpenSHA and selection methods to generate motions</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>Implemented</p></td>
 <td><p><a class="reference external" href="https://nheri-simcenter.github.io/R2D-Documentation/common/user_manual/usage/desktop/R2DTool/tools.html#opensha-erf">R2D UM 3.1.2</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>EL.2.6</p></td>
 <td><p>Ability to Utilize Own Application in Workflow</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>Implemented</p></td>
-<td><p><a class="reference external" href="https://nheri-simcenter.github.io/R2D-Documentation/common/developer_manual/architecture/desktop/run-manually.html">R2D DM</a></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p><strong>EL.2.7</strong></p></td>
-<td><p><strong>Ability to use Broadband</strong></p></td>
+<td><p><strong>Ability to include Soil-Structure Interaction Effects</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
@@ -829,7 +829,7 @@
 <td><p>_</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>EL.2.8</strong></p></td>
-<td><p><strong>Ability to include Soil-Structure Interaction Effects</strong></p></td>
+<td><p><strong>Ability to generate synthetic ground motions</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
 <td><p><strong>_</strong></p></td>
@@ -871,14 +871,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="wind-loading-requirements">
 <h2>Wind Loading Requirements<a class="headerlink" href="#wind-loading-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id18">
-<caption><span class="caption-text">Requirements - WL</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id21">
+<caption><span class="caption-text">Requirements - WL</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -919,17 +919,17 @@
 <td><p>_</p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.1.1.2</p></td>
-<td><p>MultiScale Wind Models</p></td>
+<td><p>Multi-scale models for wind and water flows, i.e. lower fidelity regional models with more refined models to capture local flow</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
 <tr class="row-even"><td><p>WL.1.1.3</p></td>
 <td><p>Multi-scale models for wind and water flows, i.e. lower fidelity regional models with more refined models to capture local flow</p></td>
 <td><p>SP</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
 <tr class="row-odd"><td><p>WL.1.2</p></td>
@@ -1115,14 +1115,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="surge-tsunami-loading-requirements">
 <h2>Surge/Tsunami Loading Requirements<a class="headerlink" href="#surge-tsunami-loading-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id19">
-<caption><span class="caption-text">Requirements - HL</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id22">
+<caption><span class="caption-text">Requirements - HL</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1204,130 +1204,298 @@
 <td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>HL.2.2</strong></p></td>
+<tr class="row-odd"><td><p>HL.2.1.6</p></td>
+<td><p>CFD to model fluid flow considering a collapsing structure</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>HL.2.2</strong></p></td>
 <td><p><strong>Quantification of flood-borne debris hazards</strong></p></td>
 <td><p><strong>GC</strong></p></td>
 <td><p><strong>M</strong></p></td>
 <td><p><strong>InProgress</strong></p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p>HL.2.2.1</p></td>
+<tr class="row-odd"><td><p>HL.2.2.1</p></td>
 <td><p>Ability to quantify the effect of unconstrained and non-colliding floating bodies</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.2.2</p></td>
+<tr class="row-even"><td><p>HL.2.2.2</p></td>
 <td><p>Ability to quantify the effect of colliding flood-borne debris</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p>HL.2.2.3</p></td>
+<tr class="row-odd"><td><p>HL.2.2.3</p></td>
 <td><p>Explore multiple methods like Material Point Method (MPM), Immersed Boundary Method (IBM), DEM-CFD, Smoothed Particle Hydrodyanmics (SPH), particle tracking</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.2.4</p></td>
+<tr class="row-even"><td><p>HL.2.2.4</p></td>
 <td><p>Integrate one of the methods for integrating particles with Hydro workflow</p></td>
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>HL.2.3</strong></p></td>
+<tr class="row-odd"><td><p><strong>HL.2.3</strong></p></td>
 <td><p><strong>Load combinations need to be developed to account for the simultaneous impacts of various flood forces, such as those generated by breaking waves, moving water and flood-borne debris</strong></p></td>
 <td><p><strong>GC</strong></p></td>
 <td><p><strong>M</strong></p></td>
 <td><p><strong>InProgress</strong></p></td>
 <td><p><strong>_</strong></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>HL.2.5</strong></p></td>
+<tr class="row-even"><td><p><strong>HL.2.5</strong></p></td>
 <td><p><strong>Multi-scale models for wind and water flows, i.e., lower fidelity regional models with more refined models to capture local flow</strong></p></td>
 <td><p><strong>SP</strong></p></td>
 <td><p><strong>D</strong></p></td>
 <td><p><strong>InProgress</strong></p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>HL.2.5.1</p></td>
+<tr class="row-odd"><td><p>HL.2.5.1</p></td>
 <td><p>Interface GeoClaw and OpenFOAM</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.5.2</p></td>
+<tr class="row-even"><td><p>HL.2.5.2</p></td>
 <td><p>Interface AdCirc and OpenFOAM</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>HL.2.6</strong></p></td>
+<tr class="row-odd"><td><p><strong>HL.2.6</strong></p></td>
 <td><p><strong>Libraries of high-resolution hurricane wind/surge/wave simulations</strong></p></td>
 <td><p><strong>SP</strong></p></td>
 <td><p><strong>M</strong></p></td>
 <td><p><strong>InProgress</strong></p></td>
 <td><p><strong>_</strong></p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.6.1</p></td>
+<tr class="row-even"><td><p>HL.2.6.1</p></td>
 <td><p>Develop a simulation library of GeoClaw simulations</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>_</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p>HL.2.6.2</p></td>
+<tr class="row-odd"><td><p>HL.2.6.2</p></td>
 <td><p>Develop a simulation library of AdCirc simulations</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>_</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.6.3</p></td>
+<tr class="row-even"><td><p>HL.2.6.3</p></td>
 <td><p>Develop a simulation library of OpenFOAM simulations</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
-<td><p>_</p></td>
+<td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>HL.2.7</strong></p></td>
+<tr class="row-odd"><td><p>HL.2.6.4</p></td>
+<td><p>Develop a simulation library of MPM or SPH simulations</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.6.5</p></td>
+<td><p>Develop a simulation library of Celeris simulations</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>HL.2.7</strong></p></td>
 <td><p><strong>Ability to simulate with surrogate models as an alternative to full 3D simulations</strong></p></td>
 <td><p><strong>SP</strong></p></td>
 <td><p><strong>M</strong></p></td>
 <td><p><strong>InProgress</strong></p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p>HL.2.7.1</p></td>
+<tr class="row-even"><td><p>HL.2.7.1</p></td>
 <td><p>Ability to simulate with surrogate models as an alternative to full 3D debris</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-even"><td><p>HL.2.7.2</p></td>
+<tr class="row-odd"><td><p>HL.2.7.2</p></td>
 <td><p>Ability to simulate with surrogate models as an alternative to full 3D fluids</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
 <td><p>_</p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>HL.2.8</strong></p></td>
-<td><p><strong>Develop digital twin of the Oregon State University’s Large Wave Flume (OSU LWF) wave tank facility</strong></p></td>
+<tr class="row-even"><td><p><strong>HL.2.8</strong></p></td>
+<td><p><strong>Develop digital twin(s) for wave tank facility(ies)</strong></p></td>
 <td><p><strong>SP</strong></p></td>
 <td><p><strong>M</strong></p></td>
 <td><p><strong>Implemented</strong></p></td>
 <td><p>_</p></td>
 </tr>
+<tr class="row-odd"><td><p>HL.2.8.1</p></td>
+<td><p>Develop digital twin of the Oregon State University’s Large Wave Flume (OSU LWF) wave tank facility</p></td>
+<td><p>SP</p></td>
+<td><p>M</p></td>
+<td><p>Implemented</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.8.2</p></td>
+<td><p>Develop digital twin of the Oregon State University’s Directional Wave Basing (OSU DWB) wave tank facility</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.8.3</p></td>
+<td><p>Develop digital twin of the Waseda University’s Tsunami Wave Basin (WU TWB) wave tank facility</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>Implemented</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.8.4</p></td>
+<td><p>Develop digital twin of the University of Washington’s Wind-Air-Sea Interaction Facility (UW WASIRF) wave tank facility</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.8.5</p></td>
+<td><p>Develop digital twin of the Hannover Large Wave Flume (HLWF) wave tank facility</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>InProgress</p></td>
+<td><p>_</p></td>
+</tr>
 <tr class="row-even"><td><p><strong>HL.2.9</strong></p></td>
-<td><p><strong>Develop digital twin of the Waseda University’s Tsunami Wave Basin (WU TWB) wave tank facility</strong></p></td>
-<td><p><strong>SP</strong></p></td>
-<td><p><strong>D</strong></p></td>
-<td><p><strong>Implemented</strong></p></td>
+<td><p>Ability to utilize synthetic wave loading algorithms</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.9.1</p></td>
+<td><p>Implement a FEMA or ASCE wave loading algorithm</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.9.2</p></td>
+<td><p>Implement one or more cutting-edge research-based wave loading algorithms</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.9.3</p></td>
+<td><p>Add functionality for users to create and implement their own wave loading algorithms, e.g. in Python</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>HL.2.10</strong></p></td>
+<td><p>Ability to utilize synthetic debris loading algorithms</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.10.1</p></td>
+<td><p>Implement a FEMA or ASCE debris loading algorithm</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.10.2</p></td>
+<td><p>Implement one or more cutting-edge research-based debris loading algorithms</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.10.3</p></td>
+<td><p>Add functionality for users to create and implement their own debris loading algorithms, e.g. in Python</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>HL.2.11</strong></p></td>
+<td><p>Library for surge/tsunami debris materials, geometries, mass, mobilized speeds, likelihood of mobilization, longitudinal displacements, lateral spreading angles, uncertainties (e.g. in material properties), and correlations between parameters</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.11.1</p></td>
+<td><p>Library for broad regions (e.g. PNW, SoCal, Hawaii, U.S. Territories, Great Lakes, Gulf-Coast, Florida, Mid-Atlantic)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.11.2</p></td>
+<td><p>Library for (e.g. rural, residential, industrial)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.11.3</p></td>
+<td><p>Library for seminal events (e.g. Tohoku 2011)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.11.4</p></td>
+<td><p>Library for likely future events (e.g. Cascadia M9.0 Event, Alaskan Landslide Induced Tsunami)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>HL.2.12</strong></p></td>
+<td><p>Probabilistic methods to enable site-specific and wave-property specific characterization of likely relevant debris types, weights, and speeds</p></td>
+<td><p>GC</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>HL.2.12.1</p></td>
+<td><p>Develop a probabilistic framework to quantify the likelihood of debris generation and mobilization in a given event at a given site (e.g. refine the 0.9 m flow-depth threshold)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>HL.2.12.2</p></td>
+<td><p>Develop a probabilistic framework to couple debris mobilization, generation, and transport (e.g. random-walk / normal distribution skewed by friction anisotropy / flood vector / wind vector) with tsunami / storm-surge / wind models</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>HL.2.13</strong></p></td>
+<td><p>Develop a PBE-compatible characterization of debris-fields (e.g. material laws, porosity, angularity)</p></td>
+<td><p>SP</p></td>
+<td><p>D</p></td>
+<td><p>_</p></td>
 <td><p>_</p></td>
 </tr>
 </tbody>
@@ -1338,14 +1506,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="uq-requirements">
 <h2>UQ Requirements<a class="headerlink" href="#uq-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id20">
-<caption><span class="caption-text">Requirements - Uncertainty Quantification Methods and Variables</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id23">
+<caption><span class="caption-text">Requirements - Uncertainty Quantification Methods and Variables</span><a class="headerlink" href="#id23" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1652,14 +1820,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="rv-requirements">
 <h2>RV Requirements<a class="headerlink" href="#rv-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id21">
-<caption><span class="caption-text">Requirements - Random Variables</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id24">
+<caption><span class="caption-text">Requirements - Random Variables</span><a class="headerlink" href="#id24" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1798,14 +1966,14 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
 <div class="section" id="common-research-application-requirements">
 <h2>Common Research Application Requirements<a class="headerlink" href="#common-research-application-requirements" title="Permalink to this heading">¶</a></h2>
-<table class="colwidths-given docutils align-default" id="id22">
-<caption><span class="caption-text">Requirements - CR</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id25">
+<caption><span class="caption-text">Requirements - CR</span><a class="headerlink" href="#id25" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 50%" />
@@ -1857,7 +2025,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/R2DTool">R2D</a></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>CR.3</strong></p></td>
 <td><p><strong>Ability to utilize resources beyond the desktop including HPC</strong></p></td>
@@ -1871,7 +2039,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/R2DTool">R2D</a></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>CR.4</strong></p></td>
 <td><p><strong>Efficient use of multiple coupled and linked models requiring sharing and inter-operability of databases, computing environments, networks, visualization tools, and analysis systems</strong></p></td>
@@ -1892,21 +2060,21 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/R2D-Documentation/common/user_manual/usage/desktop/R2DTool/tools.html">UM</a></p></td>
 </tr>
 <tr class="row-even"><td><p>CR.4.3</p></td>
 <td><p>Identify and include external viz tools</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>InProgress</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://github.com/NHERI-SimCenter/QGISPlugin/blob/main/QGISVisualizationWidget.cpp">SC</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>CR.4.4</p></td>
 <td><p>Identify and include external computing env</p></td>
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Inprogress</p></td>
-<td><p>_</p></td>
+<td><p>1.1.2.5.5</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>CR.5</strong></p></td>
 <td><p><strong>Tool available for download from web</strong></p></td>
@@ -1962,7 +2130,7 @@
 <td><p>SP</p></td>
 <td><p>M</p></td>
 <td><p>Implemented</p></td>
-<td><p>_</p></td>
+<td><p><a class="reference external" href="https://nheri-simcenter.github.io/R2D-Documentation/common/testbeds/sf_bay_area/index.html">R2D</a></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>CR.8</strong></p></td>
 <td><p><strong>Validation of proposed analytical models against existing empirical datasets</strong></p></td>
@@ -1976,7 +2144,7 @@
 <td><p>GC</p></td>
 <td><p>M</p></td>
 <td><p>_</p></td>
-<td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/R2D-Documentation/common/developer_manual/verification/desktop/verification.html">R2D</a></p></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>CR.9</p></td>
 <td><p>Tool to allow users to load and save user inputs</p></td>
@@ -1986,10 +2154,10 @@
 <td><p><strong>core</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p>CR.10</p></td>
-<td><p>Installer which installs application and all needed software</p></td>
+<td><p>Installer which installs the application and all needed software</p></td>
 <td><p>UF</p></td>
 <td><p>D</p></td>
-<td><p>_</p></td>
+<td><p>Implemented</p></td>
 <td><p><a class="reference external" href="https://NHERI-SimCenter.github.io/R2D-Documentation/common/user_manual/installation/desktop/installation.html">R2D</a></p></td>
 </tr>
 </tbody>
@@ -2000,7 +2168,7 @@
 <div class="line"><strong>Source</strong>: GC=Needed for Grand Challenges, SP=Senior Personnel, UF=User Feedback</div>
 <div class="line"><strong>Priority</strong>: M=Mandatory, D=Desirable, P=Possible Future</div>
 <div class="line"><strong>Status</strong>: Implemented, InProgress, and Blank (i.e. not started)</div>
-<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual</div>
+<div class="line"><strong>Implementation</strong>: UM=User Manual, DM=Developer Manual, SC=Source Code</div>
 </div>
 </div>
 </div>
